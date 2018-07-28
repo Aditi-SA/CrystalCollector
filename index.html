@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>CrystalsCollector Game </title>
+        
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+    <main class="container">
+
+        <!-- Jumbotron with Title -->
+        <div class="jumbotron">
+            <h1 id="heading" class="text-center"><strong>Crystals Collector Game!</strong></h1>
+            <!-- <h4 class="text-center">Rated M for Mature</h4> -->
+            <hr>            
+            <article id="rules">You will be given a random number at the start of the game.
+                <br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                you win the game by matching your total score to random number, you lose the game if your total score gets above the random number.
+                <br><br>
+                The value of each crystal is hidden from you until you click on it.
+                <br><br>
+                Each time when the game starts, the game will change the valules of each crystal.
+                <br>
+            </article>            
+        </div>     
+       
+        <div>
+            <section id="ScoretoBeat"> ScoretoBeat </section>
+            <aside id="ScoreTally">
+                <strong>Wins: </strong> <span id="win-counter">0</span>
+                <br>
+                <strong>Losses: </strong> <span id="loss-counter">0</span>
+            </aside>
+        </div>
+        <div id="clear"></div>
+        
+        <figure id="crystalfigures">
+            <!-- <input type="image" src="assets/images/clover.jpg" alt = "clove" style: width="150px", height="150px" /> -->
+            <button class="btn btn-success" class="cryst" id="crystal1" > <img src ="assets/images/clover2.jpg" alt = "clove" width="120px", height="120px"/> </button>
+            <button class="btn btn-primary" class="cryst" id="crystal2" > <img src ="assets/images/diamond.jpg" alt = "diamond" style: width="120px", height="120px" /> </button>
+            <button class="btn btn-warning" class="cryst" id="crystal3"> <img src ="assets/images/clubs.jpg" alt = "clubs" style: width="120px", height="120px" /> </button>
+            <button class="btn btn-danger" class="cryst" id="crystal4"> <img src ="assets/images/heart2.jpg" alt = "heart" style: width="120px", height="120px" /> </button>
+        </figure>
+
+        <section id="TotalScore"> Your Total Score is: </section>
+        <section id="UserScore">  </section>
+    
+    </main>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+
+</html>

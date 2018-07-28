@@ -1,0 +1,86 @@
+
+#heading{
+    color: whitesmoke;
+    background-color: orange;
+    font-size: 2rem;
+    /*width: 70%;*/
+    padding: 25px;
+    border: 5px dotted green;
+    margin: 25px;
+}
+#rules{
+    padding: 20px;
+    border: 2px solid brown;
+    background-color: lightblue;
+    /*width: 70%;*/
+    margin: 25px;
+}
+
+#ScoretoBeat{
+    background-color: mistyrose;
+    padding:20px;
+    border: 2px solid black;
+    float: left;
+    width: 35%;
+    margin: 25px;
+}
+
+#ScoreTally{
+    background-color: cyan;
+    padding:20px;
+    border: 2px solid black;
+    margin: 25px;
+    float: left;
+    width:  35%;
+}
+
+#crystalfigures{    
+    
+   /* background-color: skyblue;*/
+   /* border: 2px solid black;*/
+    margin: 5px 0 5px 25px;
+    /*width: 60%; 
+    height:auto;
+    overflow: hidden; 
+    padding: 10px 10px 10px 0;
+    /*float:left;*/
+}
+
+#crystal1, #crystal2, #crystal3, #crystal4{
+    float:left;
+    width:24%;
+    margin: 2px;
+    padding:0;   
+    z-index: 99;
+}
+
+
+#TotalScore{
+    background-color: green;
+    color: whitesmoke;
+    clear: both;
+    /*margin: 20px 20px 20px 0px;*/
+    padding:20px;
+    border: 2px solid black;    
+    width: 35%;
+    margin: 25px;    
+    float: left;
+}
+
+#UserScore{
+    background-color: darkgreen;
+    color: whitesmoke;
+    /*margin: 20px 20px 20px 0px;*/
+    padding:20px;
+    border: 2px solid black;    
+    width: 35%;
+    margin: 25px;
+    margin-top:0;
+    margin-bottom:30px;
+    clear:both;
+    float: left;
+}
+
+#clear{
+    clear:both;
+}
