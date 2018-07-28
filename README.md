@@ -55,4 +55,8 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 * The random number shown at the start of the game should be between 19 - 120.
 
+<<<<<<< HEAD
 * Each crystal should have a random hidden value between 1 - 12.
+=======
+* Each crystal should have a random hidden value between 1 - 12.
+>>>>>>> d487d25828a0381f2a92324d4d561ba179dc7734
