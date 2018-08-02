@@ -8,6 +8,12 @@
     border: 5px dotted green;
     margin: 25px;
 }
+.jumbotron{
+    padding: 1rem 1rem;
+    margin-bottom: 0;  
+    background:transparent;  
+}
+
 #rules{
     padding: 20px;
     border: 2px solid brown;
@@ -23,35 +29,31 @@
     float: left;
     width: 35%;
     margin: 25px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 #ScoreTally{
-    background-color: cyan;
+    background-color: #0532ffdc;
     padding:20px;
     border: 2px solid black;
     margin: 25px;
     float: left;
     width:  35%;
+    color:whitesmoke;
+    font-weight: bolder;
 }
 
-#crystalfigures{    
-    
-   /* background-color: skyblue;*/
-   /* border: 2px solid black;*/
-    margin: 5px 0 5px 25px;
-    /*width: 60%; 
-    height:auto;
-    overflow: hidden; 
-    padding: 10px 10px 10px 0;
-    /*float:left;*/
+#crystalfigures{ 
+    margin: 5px 0 5px 25px;    
 }
 
 #crystal1, #crystal2, #crystal3, #crystal4{
     float:left;
-    width:24%;
+    /*width:24%;*/
     margin: 2px;
     padding:0;   
-    z-index: 99;
+    z-index: 10;
 }
 
 
@@ -79,8 +81,17 @@
     margin-bottom:30px;
     clear:both;
     float: left;
+    text-align: center;
+    font-weight: bolder;
 }
 
 #clear{
     clear:both;
+}
+
+body{   
+    background-image: url("../images/bck.jpg");    
+    height: 100%; 
+    background-position: center;
+    background-size: 280px 200px;    
 }
