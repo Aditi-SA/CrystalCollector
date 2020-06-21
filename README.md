@@ -1,5 +1,4 @@
-# unit-4-game
-# jQuery 
+# jQuery based Crystal Collector Game
 
 ### Overview
 
